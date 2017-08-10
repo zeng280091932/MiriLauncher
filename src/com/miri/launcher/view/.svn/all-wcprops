@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/331/trunk/source/miriLauncher/src/com/miri/launcher/view
+END
+TabPageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/305/trunk/source/miriLauncher/src/com/miri/launcher/view/TabPageIndicator.java
+END
+DlmListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/249/trunk/source/miriLauncher/src/com/miri/launcher/view/DlmListView.java
+END
+OptionButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/217/trunk/source/miriLauncher/src/com/miri/launcher/view/OptionButton.java
+END
+SimpleClock.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/204/trunk/source/miriLauncher/src/com/miri/launcher/view/SimpleClock.java
+END
+PosterView.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/292/trunk/source/miriLauncher/src/com/miri/launcher/view/PosterView.java
+END
+IconPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/175/trunk/source/miriLauncher/src/com/miri/launcher/view/IconPagerAdapter.java
+END
+CustomBtnView.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/249/trunk/source/miriLauncher/src/com/miri/launcher/view/CustomBtnView.java
+END
+PageIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/175/trunk/source/miriLauncher/src/com/miri/launcher/view/PageIndicator.java
+END
+CustomTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/184/trunk/source/miriLauncher/src/com/miri/launcher/view/CustomTextView.java
+END
+LauncherHeadView.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/327/trunk/source/miriLauncher/src/com/miri/launcher/view/LauncherHeadView.java
+END
+IconView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/178/trunk/source/miriLauncher/src/com/miri/launcher/view/IconView.java
+END
+CustomToast.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/view/CustomToast.java
+END
+PagerPosterView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/314/trunk/source/miriLauncher/src/com/miri/launcher/view/PagerPosterView.java
+END
+CustomClock.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/204/trunk/source/miriLauncher/src/com/miri/launcher/view/CustomClock.java
+END
+SwitchButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/327/trunk/source/miriLauncher/src/com/miri/launcher/view/SwitchButton.java
+END
+TabPageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/184/trunk/source/miriLauncher/src/com/miri/launcher/view/TabPageView.java
+END
+FrameAnimationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/243/trunk/source/miriLauncher/src/com/miri/launcher/view/FrameAnimationController.java
+END

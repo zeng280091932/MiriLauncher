@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="47dp" >
+
+        <com.miri.launcher.view.IconView
+            android:id="@+id/search"
+            android:layout_width="258dp"
+            android:layout_height="180dp"
+            android:padding="13dp"
+            app:src="@drawable/search_icon"
+            app:text="@string/search" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/movie"
+            android:layout_width="258dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="159dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.IconView
+            android:id="@+id/all"
+            android:layout_width="258dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="318dp"
+            android:padding="13dp"
+            app:src="@drawable/all_media_icon"
+            app:text="@string/all" />
+
+        <com.miri.launcher.view.IconView
+            android:id="@+id/live"
+            android:layout_width="481dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="237dp"
+            android:padding="13dp"
+            app:background="@drawable/live_bg"
+            app:src="@drawable/live_icon"
+            app:text="@string/live" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/tv"
+            android:layout_width="251dp"
+            android:layout_height="339dp"
+            android:layout_marginLeft="237dp"
+            android:layout_marginTop="159dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/cartoon"
+            android:layout_width="251dp"
+            android:layout_height="339dp"
+            android:layout_marginLeft="467dp"
+            android:layout_marginTop="159dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/variety"
+            android:layout_width="336dp"
+            android:layout_height="498dp"
+            android:layout_marginLeft="697dp"
+            android:padding="13dp" />
+    </RelativeLayout>
+
+</FrameLayout>

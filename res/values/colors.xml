@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_text_unselected">#bbedff</color>
+    <color name="tab_text_selected">#00f6ff</color>
+    <color name="tab_showdow_color">#ff0072ff</color>
+    <!-- 下载管理 -->
+    <color name="down_tab_text_unselected">#b2ffffff</color>
+    <color name="down_tab_text_selected">#ffffff</color>
+    <!-- 电影名称 -->
+    <color name="movie_name_unselected">#ffffff</color>
+    <color name="movie_name_selected">#b6f4ff</color>
+    <color name="option_btn_selected">#00f6ff</color>
+    <color name="option_btn_showdow">#0072ff</color>
+    <!--  -->
+    <color name="switch_frame">#00BDF4</color>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="801dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/tab_line" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:minWidth="132dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/tabTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:shadowColor="@color/tab_showdow_color"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10.0"
+                android:text="@string/app_edit"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/tab_light"
+                android:layout_width="100dp"
+                android:layout_height="7dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_desc"
+                android:scaleType="fitXY"
+                android:src="@drawable/tab_light" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/app_grid"
+        style="@style/scrollbar_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp"
+        android:cacheColorHint="@null"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="7"
+        android:paddingBottom="15dp"
+        android:paddingRight="20dp"
+        android:paddingTop="13dp"
+        android:verticalSpacing="4dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/bottom_bg" >
+
+        <TextView
+            android:id="@+id/app_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:gravity="center_vertical"
+            android:text="@string/edit_tips"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</LinearLayout>

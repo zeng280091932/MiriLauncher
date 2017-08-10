@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 自定义对话框主题样式：有背景图片，有灰色暗淡背景 -->
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 自定义对话框主题样式 :有背景图片,没有灰色暗淡背景 -->
+    <style name="Theme.CustomDialog.NoDim" parent="@style/Theme.CustomDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- 自定义对话框主题样式:无背景图片 ，遮罩透明度0.8 -->
+    <style name="Theme.CustomDialog.NoBackground" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+    </style>
+    <!-- 自定义对话框主题样式 :无背景图片 ，没有灰色暗淡背景 -->
+    <style name="Theme.CustomDialog.NoBackground.NoDim" parent="@style/Theme.CustomDialog.NoBackground">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="common_shadow">
+        <item name="android:shadowColor">#84000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">0.3</item>
+    </style>
+
+    <!-- 自定义滚动条样式 -->
+    <style name="scrollbar_vertical" parent="android:Widget.GridView">
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarSize">4dp</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/common_scrollbar_thumb</item>
+        <item name="android:scrollbarThumbVertical">@drawable/common_scrollbar_thumb</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+
+    <style name="scrollbar_vertical_gray" parent="android:Widget.GridView">
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarSize">4dp</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/common_scrollbar_thumb</item>
+        <item name="android:scrollbarThumbVertical">@drawable/common_scrollbar_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/common_scrollbar_track</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+
+    <!-- 更新日志滚动条 -->
+    <style name="upgrade_log_scroll" parent="android:Widget.ScrollView">
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">false</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarSize">10dp</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/common_scrollbar_thumb</item>
+        <item name="android:scrollbarThumbVertical">@drawable/common_scrollbar_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+
+    <style name="video_seekbar">
+        <item name="android:maxHeight">11dp</item>
+        <item name="android:minHeight">11dp</item>
+        <item name="android:progressDrawable">@drawable/video_seekbar_selector</item>
+        <item name="android:thumb">@drawable/video_seekbar_thumb</item>
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_left_out</item>
+    </style>
+
+    <style name="ThemeActivity" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <style name="progress_loading_Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_blue</item>
+        <item name="android:minWidth">103dp</item>
+        <item name="android:maxWidth">103dp</item>
+        <item name="android:minHeight">103dp</item>
+        <item name="android:maxHeight">103dp</item>
+    </style>
+
+</resources>

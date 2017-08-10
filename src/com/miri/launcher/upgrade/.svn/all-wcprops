@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/218/trunk/source/miriLauncher/src/com/miri/launcher/upgrade
+END
+UpgradeHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/218/trunk/source/miriLauncher/src/com/miri/launcher/upgrade/UpgradeHelper.java
+END
+SoftwareParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/upgrade/SoftwareParser.java
+END
+SoftwareHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/upgrade/SoftwareHandler.java
+END
+Software.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/upgrade/Software.java
+END
+ParserFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/upgrade/ParserFileException.java
+END

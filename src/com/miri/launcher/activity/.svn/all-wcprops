@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/345/trunk/source/miriLauncher/src/com/miri/launcher/activity
+END
+VideoPlayerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/250/trunk/source/miriLauncher/src/com/miri/launcher/activity/VideoPlayerActivity.java
+END
+NetworkManagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/230/trunk/source/miriLauncher/src/com/miri/launcher/activity/NetworkManagerActivity.java
+END
+CheckUpgradeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/321/trunk/source/miriLauncher/src/com/miri/launcher/activity/CheckUpgradeActivity.java
+END
+DownItemActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/249/trunk/source/miriLauncher/src/com/miri/launcher/activity/DownItemActivity.java
+END
+BaseActivityGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/activity/BaseActivityGroup.java
+END
+BaseFragmentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/activity/BaseFragmentActivity.java
+END
+LauncherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/332/trunk/source/miriLauncher/src/com/miri/launcher/activity/LauncherActivity.java
+END
+DownloadManagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/218/trunk/source/miriLauncher/src/com/miri/launcher/activity/DownloadManagerActivity.java
+END
+WifiScanActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/332/trunk/source/miriLauncher/src/com/miri/launcher/activity/WifiScanActivity.java
+END
+AppsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/345/trunk/source/miriLauncher/src/com/miri/launcher/activity/AppsActivity.java
+END
+SearchResultActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/298/trunk/source/miriLauncher/src/com/miri/launcher/activity/SearchResultActivity.java
+END
+MenuActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/333/trunk/source/miriLauncher/src/com/miri/launcher/activity/MenuActivity.java
+END
+SearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/295/trunk/source/miriLauncher/src/com/miri/launcher/activity/SearchActivity.java
+END
+EditAppsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/337/trunk/source/miriLauncher/src/com/miri/launcher/activity/EditAppsActivity.java
+END
+AboutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/321/trunk/source/miriLauncher/src/com/miri/launcher/activity/AboutActivity.java
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/activity/BaseActivity.java
+END
+PhotoViewerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/321/trunk/source/miriLauncher/src/com/miri/launcher/activity/PhotoViewerActivity.java
+END
+MovieListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/334/trunk/source/miriLauncher/src/com/miri/launcher/activity/MovieListActivity.java
+END
+MediaActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/208/trunk/source/miriLauncher/src/com/miri/launcher/activity/MediaActivity.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/263/trunk/source/miriLauncher/src/com/miri/launcher/crashReporter
+END
+Mail.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/crashReporter/Mail.java
+END
+CrashReporterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/crashReporter/CrashReporterService.java
+END
+CrashHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/crashReporter/CrashHandler.java
+END
+MailInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/263/trunk/source/miriLauncher/src/com/miri/launcher/crashReporter/MailInfo.java
+END

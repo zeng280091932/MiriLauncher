@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/337/trunk/source/miriLauncher/src/com/miri/launcher/utils
+END
+ZipUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/utils/ZipUtil.java
+END
+ScreenCapture.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/200/trunk/source/miriLauncher/src/com/miri/launcher/utils/ScreenCapture.java
+END
+WifiConnect.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/327/trunk/source/miriLauncher/src/com/miri/launcher/utils/WifiConnect.java
+END
+ScaleAnimEffect.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/utils/ScaleAnimEffect.java
+END
+ApkUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/278/trunk/source/miriLauncher/src/com/miri/launcher/utils/ApkUtil.java
+END
+AppManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/337/trunk/source/miriLauncher/src/com/miri/launcher/utils/AppManager.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/utils/FileUtil.java
+END
+LocalImgLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/199/trunk/source/miriLauncher/src/com/miri/launcher/utils/LocalImgLoader.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/utils/Logger.java
+END
+ImageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/199/trunk/source/miriLauncher/src/com/miri/launcher/utils/ImageUtil.java
+END
+XmlUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/utils/XmlUtils.java
+END
+AssetsCopyer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/278/trunk/source/miriLauncher/src/com/miri/launcher/utils/AssetsCopyer.java
+END
+Toolkit.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/300/trunk/source/miriLauncher/src/com/miri/launcher/utils/Toolkit.java
+END
+IconUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/239/trunk/source/miriLauncher/src/com/miri/launcher/utils/IconUtil.java
+END
+ResourceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/utils/ResourceHelper.java
+END
+NetworkUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/330/trunk/source/miriLauncher/src/com/miri/launcher/utils/NetworkUtil.java
+END
+MD5Encrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/utils/MD5Encrypt.java
+END
+VideoImgLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/200/trunk/source/miriLauncher/src/com/miri/launcher/utils/VideoImgLoader.java
+END
+Summary.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/327/trunk/source/miriLauncher/src/com/miri/launcher/utils/Summary.java
+END

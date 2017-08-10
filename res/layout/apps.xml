@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_list"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/miri_logo_1" />
+
+    <com.miri.launcher.view.CustomClock
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:background="@drawable/app_recommend_title"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/app_recommend"
+            android:textColor="#1b5190"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/recomm_container"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/app_recommend_content_bg"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/recomm_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/recomm_left"
+                android:visibility="invisible" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontal_scroll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <GridView
+                        android:id="@+id/recomm_grid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:cacheColorHint="@null"
+                        android:columnWidth="170dp"
+                        android:fadingEdge="none"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="7"
+                        android:scrollbars="none"
+                        android:verticalSpacing="0dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/recomm_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/recomm_right"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/app_recommend_arrow" />
+
+    <LinearLayout
+        android:id="@+id/app_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="258dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/app_local_title"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/app_all"
+            android:textColor="#1b5190"
+            android:textSize="17sp" />
+
+        <GridView
+            android:id="@+id/app_grid"
+            android:layout_width="match_parent"
+            android:layout_height="372dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:cacheColorHint="@null"
+            android:columnWidth="170dp"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="7"
+            android:paddingBottom="14dp"
+            android:paddingTop="14dp"
+            android:scrollbars="none"
+            android:verticalSpacing="4dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_bg" >
+
+        <TextView
+            android:id="@+id/app_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:gravity="center_vertical"
+            android:text="@string/uninstall_tips"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</FrameLayout>

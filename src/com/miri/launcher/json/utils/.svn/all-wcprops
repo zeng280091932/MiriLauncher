@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/utils
+END
+JsonValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/utils/JsonValidator.java
+END
+GsonHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/utils/GsonHelper.java
+END
+JsonUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/utils/JsonUtils.java
+END

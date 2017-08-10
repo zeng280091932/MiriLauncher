@@ -1,0 +1,171 @@
+# view res/layout/flipper_poster_view.xml #generated:7
+# view res/layout/launcher.xml #generated:40
+# view res/layout/media.xml #generated:128
+# view res/layout/search_result.xml #generated:128
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.miri.launcher.LauncherApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.miri.launcher.activity.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.miri.launcher.activity.AppsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.miri.launcher.activity.CheckUpgradeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.miri.launcher.activity.DownItemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.miri.launcher.activity.DownloadManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.miri.launcher.activity.EditAppsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.miri.launcher.activity.LauncherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.miri.launcher.activity.MediaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.miri.launcher.activity.MenuActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.miri.launcher.activity.MovieListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.miri.launcher.activity.NetworkManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.miri.launcher.activity.PhotoViewerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.miri.launcher.activity.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.miri.launcher.activity.SearchResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.miri.launcher.activity.VideoPlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.miri.launcher.activity.WifiScanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.miri.launcher.crashReporter.CrashReporterService { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.miri.launcher.db.AppFavProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.miri.launcher.market.DownloadService { <init>(...); }
+
+# view res/layout/video_player.xml #generated:7
+-keep class com.miri.launcher.player.CustomVideoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.miri.launcher.receiver.AutoStartReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.miri.launcher.service.AdvertService { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.miri.launcher.service.AppRecommendService { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.miri.launcher.service.CoreService { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.miri.launcher.service.HeartReportService { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:41
+# view res/layout/alert_dialog.xml #generated:47
+# view res/layout/check_upgrade.xml #generated:190
+# view res/layout/check_upgrade.xml #generated:196
+# view res/layout/check_upgrade.xml #generated:237
+# view res/layout/check_upgrade.xml #generated:244
+# view res/layout/down_list_item.xml #generated:101
+# view res/layout/down_list_item.xml #generated:94
+# view res/layout/wifi_connection_dialog.xml #generated:57
+# view res/layout/wifi_connection_dialog.xml #generated:63
+# view res/layout/wifi_connection_dialog.xml #generated:70
+# view res/layout/wifi_info_dialog.xml #generated:90
+# view res/layout/wifi_info_dialog.xml #generated:96
+-keep class com.miri.launcher.view.CustomBtnView { <init>(...); }
+
+# view res/layout/apps.xml #generated:18
+# view res/layout/custom_head.xml #generated:6
+# view res/layout/media.xml #generated:34
+# view res/layout/search_result.xml #generated:34
+-keep class com.miri.launcher.view.CustomClock { <init>(...); }
+
+# view res/layout/flipper_poster_view.xml #generated:38
+# view res/layout/flipper_poster_view.xml #generated:51
+# view res/layout/poster_view.xml #generated:28
+# view res/layout/poster_view.xml #generated:40
+-keep class com.miri.launcher.view.CustomTextView { <init>(...); }
+
+# view res/layout/down_item.xml #generated:15
+-keep class com.miri.launcher.view.DlmListView { <init>(...); }
+
+# view res/layout/category.xml #generated:12
+# view res/layout/category.xml #generated:27
+# view res/layout/category.xml #generated:36
+# view res/layout/home.xml #generated:12
+-keep class com.miri.launcher.view.IconView { <init>(...); }
+
+# view res/layout/photo_viewer.xml #generated:150
+# view res/layout/photo_viewer.xml #generated:158
+# view res/layout/photo_viewer.xml #generated:167
+# view res/layout/photo_viewer.xml #generated:176
+# view res/layout/photo_viewer.xml #generated:185
+# view res/layout/photo_viewer.xml #generated:194
+# view res/layout/photo_viewer.xml #generated:203
+# view res/layout/video_player.xml #generated:188
+# view res/layout/video_player.xml #generated:196
+# view res/layout/video_player.xml #generated:205
+# view res/layout/video_player.xml #generated:214
+# view res/layout/video_player.xml #generated:223
+# view res/layout/video_player.xml #generated:232
+# view res/layout/video_player.xml #generated:241
+-keep class com.miri.launcher.view.OptionButton { <init>(...); }
+
+# view res/layout/app_recom.xml #generated:40
+# view res/layout/home.xml #generated:50
+-keep class com.miri.launcher.view.PagerPosterView { <init>(...); }
+
+# view res/layout/category.xml #generated:20
+# view res/layout/category.xml #generated:46
+# view res/layout/category.xml #generated:54
+# view res/layout/category.xml #generated:62
+# view res/layout/home.xml #generated:20
+# view res/layout/home.xml #generated:27
+# view res/layout/home.xml #generated:34
+# view res/layout/home.xml #generated:42
+-keep class com.miri.launcher.view.PosterView { <init>(...); }
+
+# view res/layout/left_menu.xml #generated:16
+-keep class com.miri.launcher.view.SimpleClock { <init>(...); }
+
+# view res/layout/wifi_scan_result.xml #generated:42
+-keep class com.miri.launcher.view.SwitchButton { <init>(...); }
+
+# view res/layout/tab_page.xml #generated:12
+-keep class com.miri.launcher.view.TabPageIndicator { <init>(...); }
+
+# view res/layout/launcher.xml #generated:23
+# view res/layout/media.xml #generated:20
+# view res/layout/search_result.xml #generated:20
+-keep class com.miri.launcher.view.TabPageView { <init>(...); }
+
+# onClick res/layout/app_recom.xml #generated:23
+# onClick res/layout/system_setting.xml #generated:115
+# onClick res/layout/system_setting.xml #generated:16
+# onClick res/layout/system_setting.xml #generated:49
+# onClick res/layout/system_setting.xml #generated:82
+-keepclassmembers class * { *** true(...); }
+

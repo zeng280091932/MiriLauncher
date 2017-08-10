@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/337/trunk/source/miriLauncher/src/com/miri/launcher/adapter
+END
+AnimationAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/219/trunk/source/miriLauncher/src/com/miri/launcher/adapter/AnimationAdapter.java
+END
+VideoListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/311/trunk/source/miriLauncher/src/com/miri/launcher/adapter/VideoListAdapter.java
+END
+PhotoListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/311/trunk/source/miriLauncher/src/com/miri/launcher/adapter/PhotoListAdapter.java
+END
+AppEditAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/337/trunk/source/miriLauncher/src/com/miri/launcher/adapter/AppEditAdapter.java
+END
+FolderListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/196/trunk/source/miriLauncher/src/com/miri/launcher/adapter/FolderListAdapter.java
+END
+MediaInfoListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/334/trunk/source/miriLauncher/src/com/miri/launcher/adapter/MediaInfoListAdapter.java
+END
+AppRecommendAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/335/trunk/source/miriLauncher/src/com/miri/launcher/adapter/AppRecommendAdapter.java
+END
+AppListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/177/trunk/source/miriLauncher/src/com/miri/launcher/adapter/AppListAdapter.java
+END
+CharacterAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/188/trunk/source/miriLauncher/src/com/miri/launcher/adapter/CharacterAdapter.java
+END

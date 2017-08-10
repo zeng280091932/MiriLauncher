@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="77dp"
+    android:layout_height="66dp"
+    android:background="@drawable/char_grid_item_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/char_text"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- XML attributes used by default_launcher.xml -->
+    <declare-styleable name="Favorite">
+        <attr name="className" format="string" />
+        <attr name="packageName" format="string" />
+        <attr name="uri" format="string" />
+        <attr name="icon" format="reference" />
+        <attr name="title" format="reference" />
+        <attr name="url" format="string" />
+    </declare-styleable>
+
+    <!-- 自定义图标元素属性 -->
+    <declare-styleable name="iconview_attr">
+        <attr name="src" format="reference" />
+        <attr name="background" format="reference|color" />
+        <attr name="text" format="reference|string" />
+        <attr name="title_centered" format="boolean" />
+    </declare-styleable>
+
+    <!-- 自定义TextView -->
+    <declare-styleable name="CustomTextView">
+        <attr name="innerShadowColor" format="color" />
+        <attr name="innerShadowRadius" format="float" />
+        <attr name="innerShadowDx" format="float" />
+        <attr name="innerShadowDy" format="float" />
+        <attr name="outerShadowColor" format="color" />
+        <attr name="outerShadowRadius" format="float" />
+        <attr name="outerShadowDx" format="float" />
+        <attr name="outerShadowDy" format="float" />
+        <attr name="typeface" format="string" />
+        <attr name="foreground" format="reference|color" />
+        <attr name="textBackground" format="reference|color" />
+        <attr name="strokeWidth" format="float" />
+        <attr name="strokeMiter" format="float" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeJoinStyle">
+            <enum name="miter" value="0" />
+            <enum name="bevel" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 自定义海报属性 -->
+    <declare-styleable name="posterview_attr">
+        <attr name="poster_title" format="reference|string" />
+        <attr name="poster" format="reference" />
+    </declare-styleable>
+
+    <!-- 自定义button -->
+    <declare-styleable name="custombtnview_attr">
+        <attr name="btn_background" format="reference|color" />
+        <attr name="btn_icon" format="reference" />
+        <attr name="btn_title" format="reference|string" />
+    </declare-styleable>
+
+    <!-- 操作按钮 -->
+    <declare-styleable name="option_button_attr">
+        <attr name="btn_src" format="reference" />
+        <attr name="btn_text" format="reference|string" />
+    </declare-styleable>
+
+    <!-- WifiEncryptionState -->
+    <declare-styleable name="WifiEncryptionState">
+        <attr name="state_encrypted" format="boolean" />
+    </declare-styleable>
+
+</resources>

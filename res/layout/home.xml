@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="47dp" >
+
+        <com.miri.launcher.view.IconView
+            android:id="@+id/play_record"
+            android:layout_width="258dp"
+            android:layout_height="180dp"
+            android:padding="13dp"
+            app:src="@drawable/play_record_icon"
+            app:text="@string/history" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/image_long"
+            android:layout_width="481dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="237dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/image_noraml_1"
+            android:layout_width="258dp"
+            android:layout_height="336dp"
+            android:layout_marginTop="159dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/image_normal_2"
+            android:layout_width="251dp"
+            android:layout_height="336dp"
+            android:layout_marginLeft="237dp"
+            android:layout_marginTop="159dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.PosterView
+            android:id="@+id/image_normal_3"
+            android:layout_width="251dp"
+            android:layout_height="336dp"
+            android:layout_marginLeft="467dp"
+            android:layout_marginTop="159dp"
+            android:padding="13dp" />
+
+        <com.miri.launcher.view.PagerPosterView
+            android:id="@+id/image_big"
+            android:layout_width="336dp"
+            android:layout_height="495dp"
+            android:layout_marginLeft="697dp"
+            android:padding="13dp" />
+    </RelativeLayout>
+
+</FrameLayout>

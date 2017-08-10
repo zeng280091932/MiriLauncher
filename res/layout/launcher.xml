@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="720dp"
+    android:background="@drawable/bg_blue"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp" >
+
+        <ImageView
+            android:id="@+id/home_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="42dp"
+            android:contentDescription="@string/app_desc"
+            android:focusable="false"
+            android:scaleType="fitXY"
+            android:visibility="invisible" />
+
+        <com.miri.launcher.view.TabPageView
+            android:id="@+id/tab"
+            android:layout_width="801dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <include
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="16dp"
+            layout="@layout/custom_head"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

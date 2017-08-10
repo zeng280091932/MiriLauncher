@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/336/trunk/source/miriLauncher/src/com/miri/launcher/db
+END
+DBOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/253/trunk/source/miriLauncher/src/com/miri/launcher/db/DBOpenHelper.java
+END
+AppFavProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/336/trunk/source/miriLauncher/src/com/miri/launcher/db/AppFavProvider.java
+END
+AppFavSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/336/trunk/source/miriLauncher/src/com/miri/launcher/db/AppFavSettings.java
+END

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/search_result_grid"
+        style="@style/scrollbar_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="18dp"
+        android:cacheColorHint="@null"
+        android:fadingEdge="none"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="7"
+        android:paddingRight="36dp"
+        android:verticalSpacing="2dp" />
+
+    <TextView
+        android:id="@+id/result_count"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/bottom_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="17dp"
+        android:textColor="#ffffff"
+        android:textSize="19sp" />
+
+</LinearLayout>

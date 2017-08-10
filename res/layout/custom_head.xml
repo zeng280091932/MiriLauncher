@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msg_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.miri.launcher.view.CustomClock
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginBottom="-10dp"
+        android:layout_toLeftOf="@+id/weather_container1"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/weather_container1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toLeftOf="@+id/weather_container2"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/weather_icon"
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/common_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weather_container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toLeftOf="@+id/wifi_view"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/temperature"
+            style="@style/common_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/weatherinfo"
+            style="@style/common_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/wifi_view"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toLeftOf="@+id/wired_view"
+        android:scaleType="fitXY"
+        android:src="@drawable/wifi_disable" />
+
+    <ImageView
+        android:id="@+id/wired_view"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="6dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wired_disable" />
+
+</RelativeLayout>

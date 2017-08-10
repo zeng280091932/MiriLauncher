@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/314/trunk/source/miriLauncher/src/com/miri/launcher/market
+END
+Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/218/trunk/source/miriLauncher/src/com/miri/launcher/market/Dao.java
+END
+NetUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/market/NetUtil.java
+END
+DBOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/market/DBOpenHelper.java
+END
+DownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/314/trunk/source/miriLauncher/src/com/miri/launcher/market/DownloadService.java
+END
+RecordInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/190/trunk/source/miriLauncher/src/com/miri/launcher/market/RecordInfo.java
+END

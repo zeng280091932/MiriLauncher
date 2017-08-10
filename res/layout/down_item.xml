@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="38dp"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <com.miri.launcher.view.DlmListView
+        android:id="@android:id/list"
+        style="@style/scrollbar_vertical"
+        android:layout_width="872dp"
+        android:layout_height="510dp"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadeScrollbars="false"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:transcriptMode="alwaysScroll" />
+
+</FrameLayout>

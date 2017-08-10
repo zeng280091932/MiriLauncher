@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_desc"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/media_title_bg"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="5dp" 
+        android:visibility="gone">
+
+        <com.miri.launcher.view.CustomTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:outerShadowColor="#bf000000"
+            app:outerShadowDx="0"
+            app:outerShadowDy="0"
+            app:outerShadowRadius="10.0" />
+        <com.miri.launcher.view.CustomTextView
+            android:id="@+id/desc"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:outerShadowColor="#bf000000"
+            app:outerShadowDx="0"
+            app:outerShadowDy="0"
+            app:outerShadowRadius="10.0"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/blue_frame" />
+
+</RelativeLayout>

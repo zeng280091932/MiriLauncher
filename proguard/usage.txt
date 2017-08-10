@@ -1,0 +1,648 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.google.gson.DefaultDateTypeAdapter:
+    53:54:DefaultDateTypeAdapter(int)
+com.google.gson.FieldAttributes:
+    53:53:public java.lang.Class getDeclaringClass()
+    60:60:public java.lang.String getName()
+    80:80:public java.lang.reflect.Type getDeclaredType()
+    100:100:public java.lang.Class getDeclaredClass()
+    111:111:public java.lang.annotation.Annotation getAnnotation(java.lang.Class)
+    121:121:public java.util.Collection getAnnotations()
+    135:135:public boolean hasModifier(int)
+    146:146:java.lang.Object get(java.lang.Object)
+    155:155:boolean isSynthetic()
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+    415:418:public com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    438:440:public com.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
+    499:504:public void toJson(java.lang.Object,java.lang.Appendable)
+    792:793:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.Class)
+    816:819:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$2:
+    132:132:public java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.Gson$3:
+    138:138:public com.google.gson.JsonElement serialize(java.lang.Object)
+    141:141:public com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.GsonBuilder:
+    121:122:public varargs com.google.gson.GsonBuilder excludeFieldsWithModifiers(int[])
+    135:136:public com.google.gson.GsonBuilder generateNonExecutableJson()
+    239:240:public com.google.gson.GsonBuilder enableComplexMapKeySerialization()
+    250:251:public com.google.gson.GsonBuilder disableInnerClassSerialization()
+    263:264:public com.google.gson.GsonBuilder setLongSerializationPolicy(com.google.gson.LongSerializationPolicy)
+    276:277:public com.google.gson.GsonBuilder setFieldNamingPolicy(com.google.gson.FieldNamingPolicy)
+    289:290:public com.google.gson.GsonBuilder setFieldNamingStrategy(com.google.gson.FieldNamingStrategy)
+    304:307:public varargs com.google.gson.GsonBuilder setExclusionStrategies(com.google.gson.ExclusionStrategy[])
+    323:324:public com.google.gson.GsonBuilder addSerializationExclusionStrategy(com.google.gson.ExclusionStrategy)
+    351:352:public com.google.gson.GsonBuilder setPrettyPrinting()
+    363:364:public com.google.gson.GsonBuilder disableHtmlEscaping()
+    404:406:public com.google.gson.GsonBuilder setDateFormat(int)
+    425:428:public com.google.gson.GsonBuilder setDateFormat(int,int)
+    475:476:public com.google.gson.GsonBuilder registerTypeAdapterFactory(com.google.gson.TypeAdapterFactory)
+    495:505:public com.google.gson.GsonBuilder registerTypeHierarchyAdapter(java.lang.Class,java.lang.Object)
+    529:530:public com.google.gson.GsonBuilder serializeSpecialFloatingPointValues()
+com.google.gson.JsonArray:
+    61:62:public void addAll(com.google.gson.JsonArray)
+    70:70:public int size()
+    92:92:public com.google.gson.JsonElement get(int)
+    154:157:public java.math.BigDecimal getAsBigDecimal()
+    171:174:public java.math.BigInteger getAsBigInteger()
+    187:190:public float getAsFloat()
+    227:230:public byte getAsByte()
+    235:238:public char getAsCharacter()
+    251:254:public short getAsShort()
+com.google.gson.JsonDeserializationContext:
+    public abstract java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)
+com.google.gson.JsonElement:
+    130:133:public com.google.gson.JsonNull getAsJsonNull()
+    211:211:public float getAsFloat()
+    251:251:public byte getAsByte()
+    265:265:public char getAsCharacter()
+    279:279:public java.math.BigDecimal getAsBigDecimal()
+    293:293:public java.math.BigInteger getAsBigInteger()
+    306:306:public short getAsShort()
+com.google.gson.JsonIOException:
+    33:34:public JsonIOException(java.lang.String,java.lang.Throwable)
+com.google.gson.JsonObject:
+    68:68:public com.google.gson.JsonElement remove(java.lang.String)
+    79:80:public void addProperty(java.lang.String,java.lang.String)
+    90:91:public void addProperty(java.lang.String,java.lang.Number)
+    101:102:public void addProperty(java.lang.String,java.lang.Boolean)
+    112:113:public void addProperty(java.lang.String,java.lang.Character)
+    122:122:private com.google.gson.JsonElement createJsonElement(java.lang.Object)
+    142:142:public boolean has(java.lang.String)
+    152:156:public com.google.gson.JsonElement get(java.lang.String)
+    166:166:public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
+    176:176:public com.google.gson.JsonArray getAsJsonArray(java.lang.String)
+    186:186:public com.google.gson.JsonObject getAsJsonObject(java.lang.String)
+com.google.gson.JsonParser
+com.google.gson.JsonPrimitive:
+    74:76:public JsonPrimitive(java.lang.Character)
+    84:86:JsonPrimitive(java.lang.Object)
+    199:199:public java.math.BigDecimal getAsBigDecimal()
+    210:210:public java.math.BigInteger getAsBigInteger()
+    222:222:public float getAsFloat()
+    244:244:public short getAsShort()
+    260:260:public byte getAsByte()
+    265:265:public char getAsCharacter()
+com.google.gson.JsonSerializationContext:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object)
+    public abstract com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
+com.google.gson.JsonStreamParser
+com.google.gson.LongSerializationPolicy:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$1:
+    36:36:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$2:
+    47:47:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.TreeTypeAdapter:
+    106:106:public static com.google.gson.TypeAdapterFactory newTypeHierarchyFactory(java.lang.Class,java.lang.Object)
+com.google.gson.TypeAdapter:
+    140:142:final void toJson(java.io.Writer,java.lang.Object)
+    185:185:public final com.google.gson.TypeAdapter nullSafe()
+    213:215:final java.lang.String toJson(java.lang.Object)
+    226:231:final com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    252:254:final java.lang.Object fromJson(java.io.Reader)
+    266:266:final java.lang.Object fromJson(java.lang.String)
+    276:280:final java.lang.Object fromJsonTree(com.google.gson.JsonElement)
+com.google.gson.TypeAdapter$1
+com.google.gson.internal.$Gson$Preconditions:
+    32:32:public $Gson$Preconditions()
+com.google.gson.internal.$Gson$Types:
+    45:45:private $Gson$Types()
+com.google.gson.internal.Excluder:
+    private static final double IGNORE_VERSIONS
+    76:81:public varargs com.google.gson.internal.Excluder withModifiers(int[])
+    85:87:public com.google.gson.internal.Excluder disableInnerClassSerialization()
+com.google.gson.internal.Pair
+com.google.gson.internal.Primitives:
+    33:33:private Primitives()
+    114:116:public static java.lang.Class unwrap(java.lang.Class)
+com.google.gson.internal.Streams:
+    35:78:public Streams()
+com.google.gson.internal.bind.JsonTreeReader:
+    53:55:public JsonTreeReader(com.google.gson.JsonElement)
+com.google.gson.internal.bind.JsonTreeWriter:
+    163:167:public com.google.gson.stream.JsonWriter value(double)
+    192:192:public void flush()
+com.google.gson.internal.bind.TypeAdapters:
+    56:56:private TypeAdapters()
+com.google.gson.internal.bind.TypeAdapters$21:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.reflect.TypeToken:
+    112:112:public boolean isAssignableFrom(java.lang.Class)
+    123:140:public boolean isAssignableFrom(java.lang.reflect.Type)
+    153:153:public boolean isAssignableFrom(com.google.gson.reflect.TypeToken)
+    161:178:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.GenericArrayType)
+    188:231:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map)
+    240:250:private static boolean typeEquals(java.lang.reflect.ParameterizedType,java.lang.reflect.ParameterizedType,java.util.Map)
+    257:265:private static varargs java.lang.AssertionError buildUnexpectedTypeError(java.lang.reflect.Type,java.lang.Class[])
+    273:273:private static boolean matches(java.lang.reflect.Type,java.lang.reflect.Type,java.util.Map)
+com.google.gson.stream.JsonReader:
+    private static final java.lang.String TRUE
+    private static final java.lang.String FALSE
+com.google.gson.stream.JsonWriter:
+    407:413:public com.google.gson.stream.JsonWriter value(double)
+    456:457:public void flush()
+com.google.gson.stream.MalformedJsonException:
+    33:37:public MalformedJsonException(java.lang.String,java.lang.Throwable)
+    39:43:public MalformedJsonException(java.lang.Throwable)
+com.miri.launcher.BuildConfig
+com.miri.launcher.Constants
+com.miri.launcher.Init:
+    18:18:public Init()
+com.miri.launcher.LauncherApplication:
+    89:89:public com.miri.launcher.receiver.LauncherModel getModel()
+com.miri.launcher.MoretvConstants
+com.miri.launcher.MoretvData:
+    12:12:public MoretvData()
+com.miri.launcher.MsgConstants:
+    public static final java.lang.String AUTHCODE
+    public static final java.lang.String MSGTYPE_AUTH
+    public static final java.lang.String MSGTYPE_LOGIN
+    public static final java.lang.String MSGTYPE_HEART
+    public static final java.lang.String MSGTYPE_SERVER
+    public static final java.lang.String ADTYPE_URL
+    public static final java.lang.String ADTYPE_VOD
+    public static final java.lang.String ADTYPE_APK
+    11:11:public MsgConstants()
+com.miri.launcher.PersistData:
+    public static final java.lang.String msg_url
+    14:14:public PersistData()
+com.miri.launcher.R:
+    10:10:public R()
+com.miri.launcher.R$anim
+com.miri.launcher.R$array
+com.miri.launcher.R$attr
+com.miri.launcher.R$color
+com.miri.launcher.R$dimen
+com.miri.launcher.R$drawable
+com.miri.launcher.R$id
+com.miri.launcher.R$layout
+com.miri.launcher.R$string
+com.miri.launcher.R$style
+com.miri.launcher.R$styleable:
+    905:905:public R$styleable()
+com.miri.launcher.activity.AppsActivity:
+    private static final int UNINSTALL_REQUEST_CODE
+    private static final int COLUMNS
+    private static final int COLUMN_WIDTH
+    private static final int MARGIN_RECOMM_HIDE
+    private static final int MARGIN_RECOMM_SHOW
+    private static final int HEIGHT_RECOMM_HIDE
+    private static final int HEIGHT_RECOMM_SHOW
+com.miri.launcher.activity.DownItemActivity$DLListAdapter$ViewHolder:
+    public android.widget.TextView rate
+com.miri.launcher.activity.DownloadManagerActivity:
+    private static final java.lang.String DOWNLOAD_FINISH
+    private static final java.lang.String DOWNLOADING
+com.miri.launcher.activity.LauncherActivity:
+    private static final int RETRY_LOGIN
+com.miri.launcher.activity.MenuActivity:
+    protected static final int TAB_MAX_NUMS
+com.miri.launcher.activity.MovieListActivity:
+    private static final int FETCH_MEDIA_SUCCESS
+    private static final int FETCH_MEDIA_FAILD
+com.miri.launcher.activity.PhotoViewerActivity:
+    private static final float SCALE
+    private static final int OPTION_SELECTOR_LEFT
+    private static final int ORIENTATION_WIDTH
+    private static final int ORIENTATION_HEIGHT
+    private static final int NEXT_PHOTO
+    private static final long NEXT_PHOTO_DELAY
+    private static final int HIDE_CONTROL
+    private static final long HIDE_CONTROL_DELAY
+com.miri.launcher.activity.SearchResultActivity:
+    private static final int SEARCH_SUCCESS
+    private static final int SEARCH_FAILD
+com.miri.launcher.activity.VideoPlayerActivity:
+    private static final int OPTION_SELECTOR_LEFT
+    private static final int SET_PROGRESS
+    private static final int RESET_PROGRESS
+    private static final long SET_PROGRESS_DELAY
+    private static final int HIDE_CONTROL
+    private static final long HIDE_CONTROL_DELAY
+    private static final int SEEKEND
+com.miri.launcher.adapter.FolderListAdapter
+com.miri.launcher.adapter.FolderListAdapter$Entity
+com.miri.launcher.adapter.PhotoListAdapter:
+    private static final int THUMB_WIDTH
+    private static final int THUMB_HEIGHT
+com.miri.launcher.adapter.VideoListAdapter:
+    private static final int THUMB_WIDTH
+    private static final int THUMB_HEIGHT
+com.miri.launcher.crashReporter.CrashHandler:
+    public static final java.lang.String TAG
+    private static final java.lang.String SDK_VERSION
+    private static final java.lang.String VERSION_NAME
+    private static final java.lang.String VERSION_CODE
+    private static final java.lang.String STACK_TRACE
+    private static final java.lang.String MAC
+    private static final java.lang.String AUTHCODE
+    private static final java.lang.String CRASH_REPORTER_EXTENSION
+    private static final java.lang.String CRASH_REPORTER_PRE
+com.miri.launcher.crashReporter.Mail:
+    144:144:public java.lang.String getBody()
+    152:152:public java.lang.String getUser()
+    156:157:public void setUser(java.lang.String)
+    160:160:public java.lang.String getPass()
+    164:165:public void setPass(java.lang.String)
+    168:168:public java.lang.String[] getTo()
+    176:176:public java.lang.String getFrom()
+    184:184:public java.lang.String getPort()
+    192:192:public java.lang.String getSport()
+    200:200:public java.lang.String getHost()
+    208:208:public java.lang.String getSubject()
+    216:216:public boolean isAuth()
+    220:221:public void setAuth(boolean)
+    224:224:public boolean isDebuggable()
+com.miri.launcher.crashReporter.MailInfo:
+    14:14:public MailInfo()
+com.miri.launcher.db.AppFavProvider:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    static final java.lang.String AUTHORITY
+    static final java.lang.String TABLE_APP_FAVORITES
+    static final java.lang.String PARAMETER_NOTIFY
+    184:191:static java.lang.String buildOrWhereString(java.lang.String,int[])
+com.miri.launcher.db.AppFavSettings:
+    14:14:public AppFavSettings()
+com.miri.launcher.db.AppFavSettings$AppFavoritesColumns:
+    public static final java.lang.String TITLE
+    public static final java.lang.String PKGNAME
+    public static final java.lang.String INTENT
+    public static final java.lang.String ITEM_TYPE
+    public static final int ITEM_TYPE_USER
+    public static final int ITEM_TYPE_RECOMMEND
+    public static final java.lang.String ICON_TYPE
+    public static final int ICON_TYPE_RESOURCE
+    public static final int ICON_TYPE_BITMAP
+    public static final java.lang.String ICON_PACKAGE
+    public static final java.lang.String ICON_RESOURCE
+    public static final java.lang.String ICON
+    public static final java.lang.String URL
+    16:16:public AppFavSettings$AppFavoritesColumns()
+    44:44:public static android.net.Uri getContentUri(long,boolean)
+com.miri.launcher.db.DBOpenHelper:
+    private static final java.lang.String DB_NAME
+    private static final int VERSION
+com.miri.launcher.db.manage.AppFavoritesModel:
+    26:26:public AppFavoritesModel()
+    49:55:public static void updateAppFavInDatabase(android.content.Context,com.miri.launcher.model.AppFavoritesInfo)
+    63:66:public static void deleteAppFavFromDatabase(android.content.Context,int)
+    148:161:public static int existAppFav(android.content.Context,int)
+    169:184:public static java.util.List existAppFav(android.content.Context,java.lang.String,int)
+    188:192:public static int countAppFavorites(android.content.Context,int)
+com.miri.launcher.db.manage.MediaManager:
+    18:18:public MediaManager()
+com.miri.launcher.db.manage.MoretvManager:
+    25:25:public MoretvManager()
+    181:189:public static java.util.List fetchRecommend()
+com.miri.launcher.db.manage.RecommendDBHelper:
+    private static final java.lang.String TAG
+    private static final java.lang.String TABLE_NAME
+    84:98:public void save(com.miri.launcher.moretv.model.MediaInfo)
+com.miri.launcher.fragment.AppRecommendFragment:
+    299:310:private void createOrUpdateAppGridView()
+com.miri.launcher.fragment.HomeFragment:
+    private static final int FETCH_RECOMMEND_SUCCESS
+    private static final int FETCH_RECOMMEND_FAILD
+com.miri.launcher.fragment.MyPhotoFragment:
+    private static final int FETCH_PHOTO_SUCCESS
+    private static final int FETCH_PHOTO_FAILD
+    private static final int COLUMNS
+com.miri.launcher.fragment.MyVideoFragment:
+    private static final int FETCH_VIDEO_SUCCESS
+    private static final int FETCH_VIDEO_FAILD
+    private static final int COLUMNS
+com.miri.launcher.http.HttpRequestHelper:
+    public static final int DEFAULT_CONNECT_TIMEOUT
+    public static final int DEFAULT_READ_TIMEOUT
+    14:14:public HttpRequestHelper()
+    29:29:public static java.lang.String sendGet(java.lang.String)
+    52:52:public static java.lang.String sendGet(java.lang.String,int,java.util.Map)
+    101:101:public static java.io.Reader sendGetBeReader(java.lang.String)
+    112:112:public static java.io.Reader sendGetBeReader(java.lang.String,int)
+    124:131:public static java.io.Reader sendGetBeReader(java.lang.String,int,java.util.Map)
+    146:149:public static java.io.Reader sendGetBeReader(java.lang.String,int,java.util.Map,java.util.Map)
+    164:171:public static java.lang.String sendPost(java.lang.String)
+    184:191:public static java.lang.String sendPost(java.lang.String,java.util.Map)
+    205:208:public static java.lang.String sendPost(java.lang.String,int,java.util.Map,java.util.Map)
+com.miri.launcher.http.HttpRequester:
+    184:290:protected java.io.Reader sendBeReader(java.lang.String,java.lang.String,java.util.Map,java.util.Map)
+    309:309:public java.lang.String getDefaultContentEncoding()
+    316:317:public void setDefaultContentEncoding(java.lang.String)
+    323:323:public java.lang.Integer getConnectTimeout()
+    340:340:public java.lang.Integer getReadTimeout()
+com.miri.launcher.http.NetWorkInfoException:
+    17:18:public NetWorkInfoException(java.lang.String,java.lang.Throwable)
+    21:22:public NetWorkInfoException(java.lang.String)
+    38:38:public int getResponseCode()
+    42:43:public void setResponseCode(int)
+com.miri.launcher.imageCache.ImageLoader:
+    private static final int DISK_CACHE_SIZE
+    private static final java.lang.String DISK_CACHE_SUBDIR
+    345:367:public static void setImageBitmap(android.view.View,android.graphics.Bitmap,boolean)
+com.miri.launcher.imageCache.ImageManager
+com.miri.launcher.imageCache.ImageManager$1
+com.miri.launcher.imageCache.ImageManager$ImageLoaderHandler
+com.miri.launcher.imageCache.ImageManager$ImageRef
+com.miri.launcher.imageCache.utils.DiskLruCache:
+    private static final java.lang.String CACHE_FILENAME_PREFIX
+    private static final int MB
+    private static final long FREE_NEEDED_TO_CACHE
+    125:133:public void clearAllCache()
+    179:188:public static java.io.File getDiskCacheDir(android.content.Context,java.lang.String)
+com.miri.launcher.imageCache.utils.ImageGetFromHttp:
+    33:33:public ImageGetFromHttp()
+    106:137:public static android.graphics.Bitmap getBitMapFromUrl(java.lang.String)
+com.miri.launcher.imageCache.utils.ImageMemoryCache:
+    private static final int SOFT_CACHE_SIZE
+    119:120:public void clearCache()
+com.miri.launcher.json.JsonParser:
+    21:21:public JsonParser()
+com.miri.launcher.json.JsonParserException:
+    protected java.lang.Throwable detail
+    23:24:public JsonParserException(java.lang.String,java.lang.Throwable)
+    27:28:public JsonParserException(java.lang.String)
+com.miri.launcher.json.adapter.DateDeserializerUtils
+com.miri.launcher.json.adapter.DmsExclusionStrategy
+com.miri.launcher.json.utils.GsonHelper:
+    public static final java.lang.String EMPTY_JSON
+    public static final java.lang.String EMPTY_JSON_ARRAY
+    public static final java.lang.String DEFAULT_DATE_PATTERN
+    14:14:public GsonHelper()
+    75:75:public static com.google.gson.GsonBuilder createGsonBuilder(java.util.Map)
+com.miri.launcher.json.utils.JsonUtils
+com.miri.launcher.json.utils.JsonValidator
+com.miri.launcher.market.DBOpenHelper:
+    static final java.lang.String DATABASE_NAME
+    static final int DATABASE_VERSION
+com.miri.launcher.market.Dao:
+    109:118:public boolean isExist(java.lang.String)
+com.miri.launcher.market.DownloadService:
+    private static final java.lang.String TAG
+    private static final java.lang.String DOWNLOADDIR
+    public static final int DOWNLOAD_INIT
+    public static final int DOWNLOAD_PROGRESS
+    public static final int DOWNLOAD_FETCH_ICON
+    public static final int DOWNLOAD_COMPLETE
+    public static final int DOWNLOAD_PAUSE
+    public static final int DOWNLOAD_ERROR
+    public static final int DOWNLOAD_RETRY
+    public static final int DOWNLOAD_DELETE
+    public static final int TYPE_DOWNLOADING
+    public static final int TYPE_COMPLETED
+    private static final int threadCount
+    376:381:public int getItemPosition(java.lang.String)
+    490:503:private android.graphics.drawable.Drawable getApkIconOld(android.content.Context,java.lang.String)
+    514:535:private android.content.res.Resources getApkResources(android.content.Context,java.lang.String)
+com.miri.launcher.market.NetUtil
+com.miri.launcher.market.NetUtil$1
+com.miri.launcher.market.RecordInfo:
+    45:45:public int getType()
+    53:53:public java.lang.String getFileName()
+com.miri.launcher.model.AccessPoint:
+    33:33:public android.net.wifi.WifiConfiguration getConfig()
+com.miri.launcher.model.AppFavoritesInfo:
+    public static final int NO_ID
+com.miri.launcher.model.Folder:
+    private java.lang.String name
+    private java.lang.String path
+    30:32:public Folder(java.lang.String)
+    35:35:public java.lang.String getName()
+    39:40:public void setName(java.lang.String)
+    43:43:public java.lang.String getPath()
+    47:48:public void setPath(java.lang.String)
+com.miri.launcher.model.Photo:
+    43:44:public void setName(java.lang.String)
+    51:52:public void setPath(java.lang.String)
+    59:60:public void setDateModify(java.lang.String)
+    63:63:public java.lang.String getDateAdd()
+    67:68:public void setDateAdd(java.lang.String)
+com.miri.launcher.model.Video:
+    43:44:public void setName(java.lang.String)
+    51:52:public void setPath(java.lang.String)
+    55:55:public java.lang.String getDuration()
+    59:60:public void setDuration(java.lang.String)
+com.miri.launcher.moretv.MediaInfoUtil:
+    private static final java.lang.String COLOR_STRING
+    private static final java.lang.String BOLD_STRING
+    19:19:public MediaInfoUtil()
+com.miri.launcher.moretv.MoretvParser:
+    25:25:public MoretvParser()
+com.miri.launcher.moretv.RecommendUpdater:
+    private static final long UPDATE_INTERVAL
+    public static final java.lang.String RECOMMEND_ACTION
+com.miri.launcher.msg.MsgParser:
+    static final java.lang.String url
+    37:37:public MsgParser()
+    67:68:public static com.miri.launcher.msg.model.Servers server()
+com.miri.launcher.msg.RCMap
+com.miri.launcher.msg.exception.MsgInfoException:
+    27:28:public MsgInfoException(java.lang.String,java.lang.Throwable)
+    36:37:public MsgInfoException(java.lang.String)
+    40:41:public MsgInfoException(java.lang.Throwable)
+    48:49:public void setErrorCode(int)
+com.miri.launcher.receiver.AutoStartReceiver:
+    public static final int CORESERVICE_PERIOD
+    public static final int APPRECOMMEND_PERIOD
+    public static final int HEART_DELAY
+    public static final int HEART_INTERVAL
+    59:68:private void startCoreServiceTimer(android.content.Context)
+    71:80:private void startAppRecommendServiceTimer(android.content.Context)
+com.miri.launcher.service.AdvertService:
+    public static final java.lang.String ADVERTLIST_ACTION
+com.miri.launcher.service.AppRecommendService:
+    public static final java.lang.String RECOMMEND_ACTION
+com.miri.launcher.service.CommonThread:
+    23:24:public CommonThread(java.lang.Runnable,java.lang.String)
+    27:28:public CommonThread(java.lang.Runnable)
+    31:32:public CommonThread(java.lang.String)
+    35:36:public CommonThread(java.lang.ThreadGroup,java.lang.Runnable,java.lang.String,long)
+    39:40:public CommonThread(java.lang.ThreadGroup,java.lang.Runnable,java.lang.String)
+    43:44:public CommonThread(java.lang.ThreadGroup,java.lang.Runnable)
+    47:48:public CommonThread(java.lang.ThreadGroup,java.lang.String)
+    53:53:public boolean isSuspendExecute()
+    57:58:public void restoreSuspendExecute()
+    64:65:public void suspendExecute()
+com.miri.launcher.service.CoreService:
+    public static final java.lang.String BOOT_BROASTCAST
+    public static final int BOOT_MESSAGE_SUCCESS
+    public static final int BOOT_MESSAGE_SUCCESSED
+    public static final int BOOT_MESSAGE_FAIL
+com.miri.launcher.upgrade.ParserFileException:
+    17:18:public ParserFileException(java.lang.String,java.lang.Throwable)
+    21:22:public ParserFileException(java.lang.String)
+    29:31:public ParserFileException(java.lang.String,int)
+    33:35:public ParserFileException(int)
+    38:38:public int getResponseCode()
+    42:43:public void setResponseCode(int)
+com.miri.launcher.upgrade.Software:
+    40:40:public java.lang.String getForce()
+    72:72:public java.lang.String getPublicDate()
+    80:80:public java.lang.String getLastBuildDate()
+com.miri.launcher.upgrade.SoftwareHandler
+com.miri.launcher.upgrade.SoftwareParser:
+    30:30:public SoftwareParser()
+    42:62:public static com.miri.launcher.upgrade.Software parseXmlSoftware(java.lang.String)
+com.miri.launcher.upgrade.UpgradeHelper:
+    public static final int UNKNOW_APP
+    public static final int USER_APP
+    public static final int SYSTEM_APP
+    public static final int SYSTEM_UPDATE_APP
+    public static final int SYSTEM_REF_APP
+    public static final int EX_NETWORK_ERROR
+    public static final int EX_PARSEFILE_FAIL
+    public static final int IS_LASTEST_VERSION
+    public static final int EXIST_UPGRADE_VERSION
+    219:232:public static int checkAppType(android.content.Context,java.lang.String)
+    241:241:private static boolean isSystemApp(android.content.pm.PackageInfo)
+    250:250:private static boolean isSystemUpdateApp(android.content.pm.PackageInfo)
+com.miri.launcher.utils.ApkUtil:
+    public static final java.lang.String APK_SUBDIR
+    26:26:public ApkUtil()
+com.miri.launcher.utils.AppManager:
+    24:24:public AppManager()
+com.miri.launcher.utils.FileUtil:
+    26:26:public FileUtil()
+    32:33:public static java.lang.String readFile2Str(java.lang.String)
+    77:78:public static java.io.Reader readFile2Reader(java.lang.String)
+    88:103:public static java.io.Reader readFile2Reader(java.io.File)
+com.miri.launcher.utils.IconUtil:
+    33:33:public IconUtil()
+    70:76:public static byte[] bitmapToBytes(android.graphics.Bitmap)
+    80:84:public static android.graphics.Bitmap bytesToBitmap(byte[])
+    91:100:public static byte[] flattenBitmap(android.graphics.Bitmap)
+    105:106:public static byte[] flattenDrawable(android.graphics.drawable.Drawable)
+    163:191:public static android.graphics.Bitmap createReflectedImage(android.graphics.Bitmap,int,int)
+com.miri.launcher.utils.ImageUtil:
+    9:9:public ImageUtil()
+    14:23:public static android.graphics.Bitmap decodeSampledBitmapFromByteArray(byte[],int,int)
+    47:57:public static android.graphics.Bitmap decodeSampledBitmapFromResource(android.content.res.Resources,int,int,int)
+    79:88:public static float checkFitXYScale(int,int,int,int)
+    92:96:public static android.graphics.BitmapFactory$Options getImageOptions(java.io.File)
+com.miri.launcher.utils.Logger:
+    private static final java.lang.String tag
+    67:78:public void i(java.lang.String,java.lang.Throwable)
+    96:108:public void v(java.lang.String,java.lang.Throwable)
+    127:140:public void w(java.lang.String,java.lang.Throwable)
+    195:207:public void d(java.lang.String,java.lang.Throwable)
+com.miri.launcher.utils.MD5Encrypt:
+    8:8:public MD5Encrypt()
+    36:54:public static java.lang.String generatePassword(java.lang.String,java.lang.String)
+com.miri.launcher.utils.NetworkUtil:
+    public static final int WIFI_SIGNAL_LEVEL
+    22:22:public NetworkUtil()
+    105:119:public static boolean isWifiConnected2(android.content.Context)
+    130:146:public static boolean isWiredConnected(android.content.Context)
+    216:242:public static void printNetworkInfo()
+    257:273:public java.lang.String getLocalIpAddress()
+    283:284:public static long ip2Int(java.lang.String)
+com.miri.launcher.utils.ResourceHelper:
+    private static final int SMALL
+    private static final int NORMAL
+    private static final int LARGE
+    19:19:public ResourceHelper()
+    80:102:public static void updateConfig(android.content.res.Configuration)
+com.miri.launcher.utils.ScaleAnimEffect
+com.miri.launcher.utils.ScreenCapture:
+    18:18:public ScreenCapture()
+    27:37:public static android.graphics.Bitmap captureFullScreen(android.app.Activity)
+    47:55:public static android.graphics.Bitmap captureWidget(android.view.View)
+    70:76:public static android.graphics.Bitmap captureSpecifiedScreen(android.app.Activity,int,int,int,int)
+com.miri.launcher.utils.Summary:
+    26:26:public Summary()
+    147:150:public static java.lang.String convertToQuotedString(java.lang.String)
+com.miri.launcher.utils.Toolkit:
+    56:56:public Toolkit()
+    64:67:public static void hideStatusBar(android.app.Activity)
+    75:82:public static java.lang.String toUpperCaseFirstLetter(java.lang.String)
+    91:98:public static java.lang.String toLowerCaseFirstLetter(java.lang.String)
+    102:102:public static int ceil(int,int)
+    114:128:public static java.lang.String exec(java.lang.String)
+    141:156:public static void download(android.content.Context,java.lang.String,java.lang.String)
+    201:212:public static java.lang.String getFromRaw(android.content.Context,int)
+    225:228:public static boolean isInteger(java.lang.String)
+    249:249:public static boolean isEmpty(android.util.SparseArray)
+    258:258:public static boolean isEmpty(android.util.SparseIntArray)
+    267:267:public static boolean isEmpty(android.util.SparseBooleanArray)
+    291:291:public static boolean isEmpty(java.util.Map)
+    300:313:public static java.lang.String ToDBC(java.lang.String)
+    322:325:public static java.lang.String deleteSpaceAndPunct(java.lang.String)
+    336:350:public static java.lang.String[] splitString(java.lang.String,java.lang.String,boolean)
+    378:388:public static boolean isServiceWorked(android.content.Context,java.lang.String)
+    412:420:public static int getLocalVersionCode(android.content.Context)
+    466:476:public static void createTextColor(android.content.Context,android.widget.TextView,int)
+    483:483:public static boolean isDebuggable(android.content.Context)
+    517:534:public static boolean clearLogCat()
+    554:560:public static void installApk(android.content.Context,java.io.File)
+    570:586:public static void installApkSilent(android.content.Context,java.lang.String,java.io.File)
+    625:631:public static void setprop(java.lang.String,java.lang.String)
+    658:669:private static java.util.List getHomes(android.content.Context)
+    678:683:public static boolean isHome(android.content.Context)
+    691:698:public static boolean isInHome(android.content.Context)
+    706:709:public static void setBackgroundResource(android.content.Context,android.view.View,int)
+    715:721:public static void recycle(android.content.Context,android.view.View)
+    730:736:public static android.graphics.Bitmap readBitMap(android.content.Context,int)
+    749:749:public static void openStrictMode()
+    760:771:public static void clearGridViewFocus(android.widget.GridView)
+    775:786:public static boolean isSystemApplication(android.content.Context,java.lang.String)
+    811:815:public static void sleep(long)
+com.miri.launcher.utils.WifiConnect:
+    133:141:public android.net.wifi.WifiConfiguration getEnabledWifiConfig()
+    203:203:public boolean startWifiScan()
+    283:290:public static com.miri.launcher.utils.WifiConnect$WifiCipherType getSecurity(android.net.wifi.WifiConfiguration)
+    295:305:public static com.miri.launcher.utils.WifiConnect$PskType getPskType(android.net.wifi.ScanResult)
+com.miri.launcher.utils.WifiConnect$PskType
+com.miri.launcher.utils.XmlUtils
+com.miri.launcher.utils.ZipUtil:
+    13:13:public ZipUtil()
+    66:89:public static void unzip(java.lang.String,java.lang.String)
+com.miri.launcher.view.CustomToast:
+    1:1:public static bridge synthetic android.widget.Toast makeText(android.content.Context,int,int)
+    1:1:public static bridge synthetic android.widget.Toast makeText(android.content.Context,java.lang.CharSequence,int)
+com.miri.launcher.view.FrameAnimationController:
+    private static final int MSG_ANIMATE
+    public static final int ANIMATION_FRAME_DURATION
+    14:15:private FrameAnimationController()
+    26:30:public static void requestFrameDelay(java.lang.Runnable,long)
+com.miri.launcher.view.IconPagerAdapter:
+    public abstract int getCount()
+com.miri.launcher.view.PageIndicator:
+    public abstract void setViewPager(android.support.v4.view.ViewPager,int)
+    public abstract void setCurrentItem(int)
+    public abstract void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+    public abstract void notifyDataSetChanged()
+com.miri.launcher.view.dialog.AlertDialog:
+    public static final boolean OPT_YES
+    public static final boolean OPT_NO
+    153:156:public void setOnDialogCloseListener(com.miri.launcher.view.dialog.AlertDialog$OnDialogCloseListener)
+com.miri.launcher.view.dialog.AlertUtil:
+    5:5:public AlertUtil()
+    15:17:public static void showAlert(android.content.Context,int,int)
+    27:31:public static void showAlert(android.content.Context,java.lang.String,java.lang.String)
+com.miri.launcher.view.dialog.CommonDialog:
+    11:12:public CommonDialog(android.content.Context)
+    15:16:protected CommonDialog(android.content.Context,boolean,android.content.DialogInterface$OnCancelListener)
+com.miri.launcher.view.dialog.LoadingDialog:
+    private static final java.lang.String TAG
+com.miri.launcher.view.dialog.WiFiConnectDialog:
+    200:203:public void setOnDialogCloseListener(com.miri.launcher.view.dialog.WiFiConnectDialog$OnDialogCloseListener)
+    212:215:public void setOnCancelBtnClickListener(com.miri.launcher.view.dialog.WiFiConnectDialog$OnCancelBtnClickListener)
+com.miri.launcher.view.dialog.WiFiInfoDialog:
+    150:154:private void setWifiSignal(android.net.wifi.ScanResult)
+    243:246:public void setOnDialogCloseListener(com.miri.launcher.view.dialog.WiFiInfoDialog$OnDialogCloseListener)
+    255:258:public void setOnCancelBtnClickListener(com.miri.launcher.view.dialog.WiFiInfoDialog$OnCancelBtnClickListener)
+com.miri.launcher.weather.WeatherTask:
+    public static final java.lang.String WEATHER_URL
+    private static final long FETCH_INTERVAL
+    public static final int FETCH_WEATHER
+    public static final int FETCH_WEATHER_SUCCESS
+    public static final int FETCH_WEATHER_ERROR

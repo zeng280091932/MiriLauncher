@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="720dp"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/upgrade_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="@string/netwrok_upgrade"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="542dp"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp" >
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/check_upgrade_layout"
+                android:layout_width="328dp"
+                android:layout_height="64dp"
+                android:background="@drawable/upgrade_left_bg"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/check_upgrade_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/check_upgrade_selected" />
+
+                <TextView
+                    android:id="@+id/check_version_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/check_version"
+                    android:textColor="#ffffff"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/download_layout"
+                android:layout_width="328dp"
+                android:layout_height="64dp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/downloading_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/downloading_unselected" />
+
+                <TextView
+                    android:id="@+id/downloading_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/down_install"
+                    android:textColor="#b2ffffff"
+                    android:textSize="23sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp" >
+
+            <LinearLayout
+                android:id="@+id/downloading_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="32dp"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/loading_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="29dp"
+                        android:layout_height="29dp"
+                        android:indeterminateDrawable="@drawable/progress" />
+
+                    <TextView
+                        android:id="@+id/msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:text="@string/upgrade_downloading"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ProgressBar
+                        android:id="@+id/dl_progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="525dp"
+                        android:layout_height="11dp"
+                        android:progressDrawable="@drawable/common_progressbar" />
+
+                    <TextView
+                        android:id="@+id/percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/upgrade_tips"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="68dp"
+                    android:orientation="horizontal" >
+
+                    <com.miri.launcher.view.CustomBtnView
+                        android:id="@+id/optBtn"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        app:btn_title="@string/silent" />
+
+                    <com.miri.launcher.view.CustomBtnView
+                        android:id="@+id/removeBtn"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="8dp"
+                        app:btn_background="@drawable/btn_backgrund_orange"
+                        app:btn_title="@string/cancel" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/check_upgrade_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="40dp"
+                android:paddingTop="30dp" >
+
+                <TextView
+                    android:id="@+id/check_upgrading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_upgrading"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/upgrade_confirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:text="@string/upgrade_confirm"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:orientation="horizontal" >
+
+                    <com.miri.launcher.view.CustomBtnView
+                        android:id="@+id/okBtn"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_marginRight="8dp"
+                        app:btn_title="@string/ok" />
+
+                    <com.miri.launcher.view.CustomBtnView
+                        android:id="@+id/cancelBtn"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        app:btn_background="@drawable/btn_backgrund_orange"
+                        app:btn_title="@string/cancel" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/upgrade_log_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="26dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="26dp"
+                        android:focusable="false"
+                        android:text="@string/version_msg"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <ScrollView
+                        android:id="@+id/scrollView"
+                        style="@style/upgrade_log_scroll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fadingEdge="none"
+                        android:focusable="false"
+                        android:minWidth="380dp"
+                        android:paddingRight="40dp" >
+
+                        <TextView
+                            android:id="@+id/upgrade_log"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:lineSpacingExtra="9dp"
+                            android:textColor="#000000"
+                            android:textSize="17sp" />
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

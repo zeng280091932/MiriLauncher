@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/341/trunk/source/miriLauncher/src/com/miri/launcher/fragment
+END
+MyVideoFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/fragment/MyVideoFragment.java
+END
+CategoryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/321/trunk/source/miriLauncher/src/com/miri/launcher/fragment/CategoryFragment.java
+END
+MyPhotoFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/fragment/MyPhotoFragment.java
+END
+SearchResultFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/fragment/SearchResultFragment.java
+END
+SystemSettingsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/306/trunk/source/miriLauncher/src/com/miri/launcher/fragment/SystemSettingsFragment.java
+END
+HomeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/321/trunk/source/miriLauncher/src/com/miri/launcher/fragment/HomeFragment.java
+END
+AppRecommendFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/341/trunk/source/miriLauncher/src/com/miri/launcher/fragment/AppRecommendFragment.java
+END
+BaseFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/321/trunk/source/miriLauncher/src/com/miri/launcher/fragment/BaseFragment.java
+END

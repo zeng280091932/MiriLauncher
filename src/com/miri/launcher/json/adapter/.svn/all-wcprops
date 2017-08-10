@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/adapter
+END
+DmsExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/adapter/DmsExclusionStrategy.java
+END
+DateDeserializerUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/json/adapter/DateDeserializerUtils.java
+END

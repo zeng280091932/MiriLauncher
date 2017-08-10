@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp" >
+
+        <ImageView
+            android:id="@+id/home_logo"
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/app_desc"
+            android:focusable="false"
+            android:scaleType="fitXY" />
+
+        <com.miri.launcher.view.TabPageView
+            android:id="@+id/tab"
+            android:layout_width="801dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/home_logo" />
+
+        <RelativeLayout
+            android:id="@+id/msg_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="25dp"
+            android:paddingRight="16dp" >
+
+            <com.miri.launcher.view.CustomClock
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@+id/weather_container1"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/weather_container1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toLeftOf="@+id/weather_container2"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/weather_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/city"
+                    style="@style/common_shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/weather_container2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toLeftOf="@+id/wifi_view"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/temperature"
+                    style="@style/common_shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/weatherinfo"
+                    style="@style/common_shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/wifi_view"
+                android:layout_width="24dp"
+                android:layout_height="22dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toLeftOf="@+id/wired_view"
+                android:scaleType="fitXY"
+                android:src="@drawable/wifi_disable" />
+
+            <ImageView
+                android:id="@+id/wired_view"
+                android:layout_width="24dp"
+                android:layout_height="22dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/wired_disable" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

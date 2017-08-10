@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">米睿桌面</string>
+    <string name="company_name">米睿科技</string>
+    <string name="app_desc">This is MiRi TV Launcher!</string>
+    <string name="imageview_cache">imageview_cache</string>
+    <string name="home">主页</string>
+    <string name="video_category">视频分类</string>
+    <string name="my_app">应用程序</string>
+    <string name="settings">系统设置</string>
+    <string name="local_media">我的媒体</string>
+    <string name="local_file">本地文件</string>
+    <string name="broswer">浏览器</string>
+    <string name="market">电子市场</string>
+    <string name="netwrok_upgrade">网络升级</string>
+    <string name="network_settings">网络设置</string>
+    <string name="adv_settings">高级设置</string>
+    <string name="download_manager">下载管理</string>
+    <string name="about_title">关于我们</string>
+    <string name="my_app_entrance">我的应用程序</string>
+    <string name="app_count">%1$s个应用程序</string>
+    <string name="about_us">\t \t米睿桌面是一款基于Andriod智能电视机、机顶盒开发的桌面系统，集合了视频点播、直播、热门应用推荐以及本地视频播放等功能；团队的UI设计师和研发人员都是从事智能电视机、互联网电视应用的资深工程师， 充分根据用户与电视的交互方式进行设计，给用户带来极致体验和高清视听感受，让普通机顶盒更智能，让操作更简单。</string>
+    <string name="kongge_desc">米睿桌面为空格数码独家版本定制</string>
+    <string name="software_name">软件名称：%1$s</string>
+    <string name="version_name">版本号：%1$s</string>
+    <string name="about_email">邮箱：miri100@126.com</string>
+    <string name="about_qq_group">QQ群：208816371</string>
+    <string name="about_qq">QQ：526993463</string>
+    <string name="about_company">深圳市米睿科技有限公司</string>
+    <string name="overview">概览</string>
+    <string name="my_video">我的视频</string>
+    <string name="my_photo">我的照片</string>
+    <string name="no_photo">没有找到照片</string>
+    <string name="my_devices">我的设备</string>
+    <string name="photo_count">共%1$s张</string>
+    <string name="video_count">共%1$s部</string>
+    <string name="back_tips">返回上一层</string>
+    <string name="download_finish">下载完毕</string>
+    <string name="downloading">正在下载</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="silent">后台运行</string>
+    <string name="down_install">下载安装</string>
+    <string name="check_version">检查版本</string>
+    <string name="no_app">未找到应用！</string>
+    <string name="upgrade_downloading">正在下载文件...</string>
+    <string name="upgrade_tips">注意：请保持网络畅通！</string>
+    <string name="upgrade_msg_tip">系统检查到有最新版本V%1$s,确认是否升级?</string>
+    <string name="check_upgrading">1、正在检查新版本,请稍候... </string>
+    <string name="check_upgradie_finish">1、检查新版本完成！</string>
+    <string name="upgrade_confirm">2、当前版本%1$s，系统检查到有新版本%2$s，确认是否升级？</string>
+    <string name="version_lastest">2、当前版本%1$s已是最新版本。</string>
+    <string name="network_timeout">2、网络异常，请稍候重试！</string>
+    <string name="parse_upgrade_file_error">2、解析升级文件出错！</string>
+    <string name="version_msg">版本说明：</string>
+    <string name="invalid_url">无效的URL！</string>
+    <string name="dl_exist">下载任务已存在！</string>
+    <string name="dl_exist_enter_dlmanager">下载任务已存在，确认进入下载管理?</string>
+    <string name="dl_file_error">下载文件丢失！</string>
+    <string name="network_fail">网络连接失败！</string>
+    <string name="io_fail">io文件操作异常！</string>
+    <string name="dl_start_apk">开始下载%1$s</string>
+    <string name="dl_finish">%1$s下载完成！</string>
+    <string name="dl_error">%1$s下载出错(错误：%2$s)</string>
+    <string name="retrying">重试中...</string>
+    <string name="btn_retry">重试</string>
+    <string name="btn_continue">开始</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_install">安装</string>
+    <string name="btn_installed">已安装</string>
+    <string name="btn_delete">删除</string>
+    <string name="install_fail">应用无法安装！</string>
+    <string name="no_allow_install">系统未允许安装第三方应用</string>
+    <string name="download_delete_confirm">确定要删除此项吗？</string>
+    <string name="download_delete_message">确认后，下载任务将会被删除。</string>
+    <string name="search_title">影片搜索</string>
+    <string name="search_hint">输入关键字搜索搜索</string>
+    <string name="search_tips">例如：查找“快乐大本营”，请输入“KLDBY”</string>
+    <string name="search_del">删\t除</string>
+    <string name="search_ok">搜\t索</string>
+    <string name="search_result_title">搜索结果</string>
+    <string name="result_count">共%1$s项</string>
+    <string name="system_tips">系统提示</string>
+    <string name="history_title">观看记录</string>
+    <string name="history">历史记录</string>
+    <string name="search">搜索</string>
+    <string name="movie">电影</string>
+    <string name="all">全部</string>
+    <string name="live">频道时移</string>
+    <string name="tv">电视剧</string>
+    <string name="cartoon">动漫</string>
+    <string name="variety">综艺</string>
+    <string name="hot">资讯</string>
+    <string name="mv">音乐</string>
+    <string name="movietv">影视</string>
+    <string name="photo_name">图片名称：</string>
+    <string name="photo_size">尺寸大小：</string>
+    <string name="photo_date">图片日期：</string>
+    <string name="video_name">正在播放：</string>
+    <string name="video_time">时长：</string>
+    <string name="exit_title">退出播放</string>
+    <string name="exit_msg">您确定要退出播放器吗？</string>
+    <string name="more">更多</string>
+    <string name="uninstall_title">卸载</string>
+    <string name="uninstall_msg">您确定要卸载“%1$s”吗？</string>
+    <string name="no_apk_content">当前没有下载任务!</string>
+    <string name="no_downing_content">当前没有正在下载的任务！</string>
+    <string name="no_downfinish_content">当前没有下载完毕的任务！</string>
+    <string name="uninstall_tips">长按【OK】键删除应用</string>
+    <string name="edit_tips">添加完成【返回】键退出</string>
+    <string name="to_edit_tips">长按【OK】键编辑应用</string>
+
+    <string-array name="wifi_status">
+        <item>"WiFi已经开启，点击关闭"</item>
+        <item>"WiFi已经关闭，点击开启"</item>
+        <item>"WiFi正在打开..."</item>
+        <item>"WiFi正在扫描..."</item>
+        <item>"WiFi正在关闭..."</item>
+        <item>"WiFi出错"</item>
+    </string-array>
+    <string-array name="wifi_detail_status">
+        <item></item>
+        <item>"正在扫描..."</item>
+        <item>"正在连接..."</item>
+        <item>"正在进行身份验证..."</item>
+        <item>"正在获取 IP 地址..."</item>
+        <item>"已连接"</item>
+        <item>"已暂停"</item>
+        <item>"正在断开连接..."</item>
+        <item>"已断开连接"</item>
+        <item>"失败"</item>
+    </string-array>
+    <string-array name="wifi_supplicant_status">
+        <item></item>
+        <item>"已断开连接"</item>
+        <item>"正在扫描..."</item>
+        <item>"已连接"</item>
+    </string-array>
+
+    <string name="wifi_secured">"通过 %1$s进行保护"</string>
+
+    <string-array name="wifi_security">
+        <item>"开放"</item>
+        <item>"WEP"</item>
+        <item>"WPA/WPA2 PSK"</item>
+        <item>"802.1x EAP"</item>
+    </string-array>
+
+    <string name="wifi_fail_to_scan">"无法通过扫描查找网络"</string>
+    <string name="wifi_status_info">状态消息：%1$s</string>
+    <string name="wifi_signal_level">信号强度：%1$s</string>
+    <string name="wifi_mac">MAC地址：%1$s</string>
+    <string name="wifi_ip">IP地址：%1$s</string>
+    <string name="wifi_link_speed">连通速度：%1$s</string>
+    <string name="wifi_security">安全性：%1$s</string>
+
+    <string-array name="wifi_level">
+        <item>"弱"</item>
+        <item>"一般"</item>
+        <item>"较强"</item>
+        <item>"强"</item>
+    </string-array>
+
+    <string name="app_recommend">推荐应用</string>
+    <string name="app_all">全部应用</string>
+    <string name="app_edit">添加应用程序</string>
+    <string name="add_app">添加应用</string>
+
+</resources>

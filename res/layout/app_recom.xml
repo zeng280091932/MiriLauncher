@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="47dp" >
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <LinearLayout
+                android:id="@+id/app_entrance_bg"
+                android:layout_width="174dp"
+                android:layout_height="172dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/app_entrance"
+                    android:layout_width="148dp"
+                    android:layout_height="146dp"
+                    android:background="@drawable/icon_default_bg"
+                    android:drawablePadding="13dp"
+                    android:drawableTop="@drawable/my_app"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_horizontal"
+                    android:onClick="true"
+                    android:paddingTop="20dp"
+                    android:text="@string/my_app_entrance"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <com.miri.launcher.view.PagerPosterView
+                android:id="@+id/ad_image_bg"
+                android:layout_width="868dp"
+                android:layout_height="172dp"
+                android:layout_marginLeft="153dp"
+                android:padding="13dp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <GridView
+        android:id="@+id/middle"
+        android:layout_width="954dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:cacheColorHint="@null"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="6"
+        android:paddingLeft="2dp"
+        android:scrollbars="none" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+       android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bg" >
+
+        <TextView
+            android:id="@+id/bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:gravity="center_vertical"
+            android:text="@string/to_edit_tips"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+    </RelativeLayout>
+</RelativeLayout>

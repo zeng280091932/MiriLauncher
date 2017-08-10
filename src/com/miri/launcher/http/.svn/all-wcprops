@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/http
+END
+HttpRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/http/HttpRequester.java
+END
+NetWorkInfoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/http/NetWorkInfoException.java
+END
+HttpRequestHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/164/trunk/source/miriLauncher/src/com/miri/launcher/http/HttpRequestHelper.java
+END

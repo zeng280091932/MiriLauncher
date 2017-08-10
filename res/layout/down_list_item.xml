@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="843dp"
+        android:layout_height="85dp" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/list_divier" />
+
+        <ImageView
+            android:id="@+id/apk_icon"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="14dp"
+            android:contentDescription="@string/app_desc"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/sym_def_app_icon" />
+
+        <LinearLayout
+            android:layout_width="525dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/apk_icon"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/apk_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@android:string/unknownName"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/dl_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="525dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="16dp"
+                android:progressDrawable="@drawable/common_progressbar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="35dp" >
+
+            <com.miri.launcher.view.CustomBtnView
+                android:id="@+id/btn_opt"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                app:btn_icon="@drawable/down_start_icon"
+                app:btn_title="@string/btn_continue" />
+
+            <com.miri.launcher.view.CustomBtnView
+                android:id="@+id/btn_delete"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="9dp"
+                app:btn_background="@drawable/btn_backgrund_orange"
+                app:btn_icon="@drawable/down_delete_icon"
+                app:btn_title="@string/btn_delete" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

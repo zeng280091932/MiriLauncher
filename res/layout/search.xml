@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_list"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="801dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/tab_line" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:minWidth="132dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/tabTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:shadowColor="@color/tab_showdow_color"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="10.0"
+                android:text="@string/search_title"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/tab_light"
+                android:layout_width="100dp"
+                android:layout_height="7dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_desc"
+                android:scaleType="fitXY"
+                android:src="@drawable/tab_light" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="685dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="77dp" >
+
+        <EditText
+            android:id="@+id/search_edt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_edt_bg"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/search_hint"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingRight="43dp"
+            android:textColorHint="#9b9b9b"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/search_flag" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14sp"
+        android:text="@string/search_tips"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <GridView
+        android:id="@+id/char_grid"
+        android:layout_width="693dp"
+        android:layout_height="264dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:cacheColorHint="@null"
+        android:fadingEdge="none"
+        android:horizontalSpacing="0dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="9"
+        android:scrollbars="none"
+        android:verticalSpacing="0dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/search_del_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_del_btn_bg"
+            android:text="@string/search_del"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/search_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/search_ok_btn_bg"
+            android:text="@string/search_ok"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

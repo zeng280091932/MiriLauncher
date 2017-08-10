@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toast_y_offset">100dip</dimen>
+    <dimen name="toast_padding_left">24dip</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_marginTop="24dp" >
+
+        <GridView
+            android:id="@+id/video_grid"
+            style="@style/scrollbar_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="51dp"
+            android:layout_marginRight="16dp"
+            android:cacheColorHint="@null"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="6"
+            android:paddingRight="21dp"
+            android:paddingTop="8dp" />
+
+        <ImageView
+            android:id="@+id/no_video_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_video" 
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/video_count"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/bottom_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="17dp"
+        android:textColor="#ffffff"
+        android:textSize="19sp" />
+
+</LinearLayout>

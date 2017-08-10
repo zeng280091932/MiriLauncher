@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/photo_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:id="@+id/viewer_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="top"
+        android:background="@drawable/viewer_top_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photo_name"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/photo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="660dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/photo_size"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/photo_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/photo_date"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/photo_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/viewer_option"
+        android:layout_width="1229dp"
+        android:layout_height="114dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/viewer_option_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!--
+            <ImageButton
+                android:id="@+id/option_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_prev_bg"/>
+
+            <ImageButton
+                android:id="@+id/option_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_next_bg" />
+
+            <ImageButton
+                android:id="@+id/option_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_play_bg" />
+
+            <ImageButton
+                android:id="@+id/option_ampfily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_ampfily_bg" />
+
+            <ImageButton
+                android:id="@+id/option_reduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_reduce_bg" />
+
+            <ImageButton
+                android:id="@+id/option_fullscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_fullscreen_bg" />
+
+            <ImageButton
+                android:id="@+id/option_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_back_bg" />
+            -->
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_prev_bg"
+                app:btn_text="上一个" />
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_next_bg" 
+                app:btn_text="下一个"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_play_bg" 
+                app:btn_text="幻灯片播放"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_ampfily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_ampfily_bg" 
+                app:btn_text="放大"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_reduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_reduce_bg" 
+                app:btn_text="缩小"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_fullscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_fullscreen_bg" 
+                app:btn_text="全屏"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/option_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_back_bg" 
+                app:btn_text="返回"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/option_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/option_selector" />
+    </FrameLayout>
+
+</FrameLayout>

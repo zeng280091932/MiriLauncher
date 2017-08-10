@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.miri.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.miri.launcher.player.CustomVideoView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/player_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="top"
+        android:background="@drawable/viewer_top_bg"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:text="@string/video_name"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="800dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/video_time"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView 
+        android:id="@+id/pause_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/video_pause_pop"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+    <FrameLayout
+        android:id="@+id/player_option"
+        android:layout_width="1231dp"
+        android:layout_height="146dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/video_option_bg"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp" >
+
+            <SeekBar
+                android:id="@+id/video_seekbar"
+                style="@style/video_seekbar"
+                android:layout_width="1077dp"
+                android:layout_height="wrap_content"
+                android:nextFocusRight="@id/video_seekbar"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+            <TextView
+                android:id="@+id/seek_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00:00"
+                android:textColor="#8fc400"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="#8fc400"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00:00"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!--
+            <ImageButton
+                android:id="@+id/video_fullscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_fullscreen_bg" />
+
+            <ImageButton
+                android:id="@+id/video_speed_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_speed_back_bg" />
+
+            <ImageButton
+                android:id="@+id/video_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_prev_bg" />
+
+            <ImageButton
+                android:id="@+id/video_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_pause_bg" />
+
+            <ImageButton
+                android:id="@+id/video_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_next_bg" />
+
+            <ImageButton
+                android:id="@+id/video_speed_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_speed_in_bg" />
+
+            <ImageButton
+                android:id="@+id/video_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="121dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/option_back_bg" />
+            -->
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_fullscreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_fullscreen_bg" 
+                app:btn_text="全屏"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_speed_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_speed_back_bg" 
+                app:btn_text="快退"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_prev_bg" 
+                app:btn_text="上一个"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_pause_bg" 
+                app:btn_text="暂停"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_next_bg" 
+                app:btn_text="下一个"/>
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_speed_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_speed_in_bg"
+                app:btn_text="快进" />
+
+            <com.miri.launcher.view.OptionButton
+                android:id="@+id/video_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:background="@android:color/transparent"
+                app:btn_src="@drawable/option_back_bg" 
+                app:btn_text="返回"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/option_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/option_selector" />
+    </FrameLayout>
+
+</FrameLayout>

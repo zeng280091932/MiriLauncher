@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:minWidth="132dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <TextView
+        android:id="@+id/tabTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:shadowColor="@color/tab_showdow_color"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0.3"
+        android:singleLine="true"
+        android:textColor="@drawable/tab_text_selector"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/tab_light"
+        android:layout_width="100dp"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tab_light_selector"
+        android:contentDescription="@string/app_desc"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>
